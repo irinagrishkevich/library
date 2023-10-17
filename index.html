@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/Welcome.png" type="image/png">
+    <title>library</title>
+</head>
+<body>
+    <header class="header">
+        <div class="screen__wrap">
+            <div class="title_text">
+                <h1>Brooklyn Public Library</h1>
+            </div>
+            <div class="wrapper__navigation">
+                <nav class="navigation">
+                    <ul class="navigation__links">
+                        <li class="nav__item"><a href="#about" class="nav__link nav__link--active">About</a></li>
+                        <li class="nav__item"><a href="#favorites" class="nav__link">Favorites </a></li>
+                        <li class="nav__item"><a href="#coffe_shop" class="nav__link">Coffe Shop</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Contacts </a></li>
+                        <li class="nav__item"><a href="#library_card" class="nav__link">Library Card </a></li>
+                    </ul>
+                </nav>
+                <div class="profile__img">
+                    <img src="img/icon_profile.svg" class="my_profile" alt="my_profile">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main> 
+        <section class="welcome">
+            <div class="wrapper__welcome">
+                <div class="welcome__content">
+                    <h2>Welcome</h2>
+                    <h2>to the Brooklyn</h2>
+                    <h2> Library</h2>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="wrapper wrapper__about">
+                <div class="title">
+                    <h2>About</h2>
+                </div>
+                <div class="line"></div>
+                <div class="about__content">
+                    <p>The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</p>
+                </div>
+                <div class="about__slider">
+                    <div class="about_slide first"></div>
+                    <div class="about_slide second"></div>
+                    <div class="about_slide third"></div>
+                </div>
+                <div class="slider__dots">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="68" height="16" viewBox="0 0 68 16" fill="none">
+                        <rect width="16" height="16" rx="8" fill="#BB945F"/>
+                        <rect x="26" width="16" height="16" rx="8" fill="#0C0C0E"/>
+                        <rect x="52" width="16" height="16" rx="8" fill="#0C0C0E"/>
+                      </svg>
+                </div>
+            </div>
+        </section>
+        <section class="favorites">
+            <div class="wrapper wrapper__favorites">
+                <div class="title">
+                    <h2>Favorites</h2>
+                </div>
+                <div class="line"></div>
+                <div class="favorites__pickup">
+                    <div class="pickup__content">
+                        <p>Pick favorites of season</p>
+                    </div>
+                    <div class="pickup__radio"> 
+                        <div class="radio radio__active">
+                            <input type="radio" id="winter" name="season" value="winter" checked>
+                            <label for="winter">Winter</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" id="spring" name="season" value="spring">
+                            <label for="spring">Spring</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" id="summer" name="season" value="summer">
+                            <label for="summer">Summer</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" id="autumn" name="season" value="autumn">
+                            <label for="autumn">Autumn</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="favorites__books">
+                    <div class="first__book book">
+                        <h3>Staff Picks</h3>
+                        <h4>The Book Eaters</h4>
+                        <h4>By Sunyi Dean</h4>
+                        <p>An unusual sci-fi story about a book eater woman who tries desperately to 
+                           save her dangerous mind-eater son from tradition and certain death. Complete with 
+                           dysfunctional family values, light Sapphic romance, and a strong, complex protagonist. 
+                           Not for the faint of heart.</p>
+                           <img class="img__book1" src="img/books/book.png">
+                        <button>Buy</button>
+                        </div>
+                    <div class="second__book book">
+                        <h3>Staff Picks</h3>
+                        <h4>Cackle</h4>
+                        <h4>By Rachel Harrison</h4>
+                        <p>Are your Halloween movies of choice The Witches of Eastwick and Practical Magic? Look no further 
+                            than here - where a woman recovering from a breakup moves to a quaint town in upstate New York
+                             and befriends a beautiful witch.</p>
+                           <img class="img__book2" src="img/books/book2.png">
+                        <button>Buy</button>
+                    </div>
+                    <div class="third__book book">
+                        <h3>Staff Picks</h3>
+                        <h4>Dante: Poet of the Secular World</h4>
+                        <h4>By Erich Auerbach</h4>
+                        <p>Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy, and philosophy 
+                            in general, arguing for Dante's uniqueness as one who raised the individual and his drama of soul
+                            into something of divine significance—an inspired introduction to Dante's main themes.</p>
+                           <img class="img__book3" src="img/books/book3.png">
+                        <button>Buy</button>
+                    </div>
+                    <div class="fourth__book book">
+                        <h3>Staff Picks</h3>
+                        <h4>The Last Queen</h4>
+                        <h4>By Clive Irving</h4>
+                        <p>A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the
+                             Windsors have evolved and thrived as the modern world has changed around them.</p>
+                           <img class="img__book4" src="img/books/book4.png">
+                        <button>Buy</button>
+                    </div>
+                </div>           
+            </div>
+        </section>
+        <section class="wrapper coffe_shop"></section>
+        <section class="wrapper contacts"></section>
+        <section class="wrapper library_card"></section>
+        <section class=""></section>
+    </main>
+    <footer>
+
+    </footer>
+</body>

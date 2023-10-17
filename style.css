@@ -1,0 +1,259 @@
+@charset "UTF-8";
+html {
+  
+          box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+
+          box-sizing: inherit;
+}
+body {
+    color: #545454;
+    font-family: "Georgia", "Arial", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0 auto;
+    overflow-x: hidden;
+    position: relative;
+  }
+p,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+p, a{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    text-decoration: none;
+}
+p{
+    color: #000;
+    line-height: 40px;
+}
+h1{
+    color: #FFF;
+}
+h1,h2{
+    font-family: 'Forum';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+}
+.header{
+    background: #0C0C0E;
+}
+.title_text{
+    max-width: 294px;
+}
+.navigation{
+    width: 89.57%;
+}
+.profile__img{
+    max-width: 28px;
+}
+a:hover {
+    color: #F1CDB3;
+    border-bottom: 3px solid #F1CDB3;
+    outline: none;
+    transition: 1s;
+  }
+.wrapper__navigation{
+    width: 652px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation__links { 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .screen__wrap{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    overflow-x: hidden;
+}
+.wrapper{
+    max-width: 1400px;
+    margin: auto;
+}
+.welcome{
+    height: 600px;
+    background: url(img/Welcome.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.wrapper__welcome{
+    max-width: 1400px;
+    padding-top: 220px;
+}
+.welcome__content{
+    width: 42.86%;
+    height: 220px; 
+    background-color:black;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 35px 40px;
+}
+.welcome__content h2{
+    letter-spacing: 3px;
+    line-height:50px;
+    color: #FFF;
+}
+.about{
+    height: 837px;
+}
+.wrapper__about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    margin-top: 20px;
+}
+.title h2{
+    letter-spacing: 2px;
+    font-size: 40px;
+    line-height: 40px;
+}
+.line{
+    width: 50px;
+    height: 1px;
+    border-bottom: 1px solid #000;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.about__slider{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.about_slide{
+    width: 32.14%;
+    height: 560px;
+}
+.first{
+    background: url(img/slider/image1.png);
+    background-repeat: no-repeat;
+}
+.second{
+    background: url(img/slider/image2.png);
+    background-repeat: no-repeat;
+}
+.third{
+    background: url(img/slider/image3.png);
+    background-repeat: no-repeat;
+}
+.slider__dots{
+    margin-top: 40px;
+}
+.wrapper__favorites{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.favorites__pickup{
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+}
+.pickup__radio{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-bottom: 42px;
+}
+.radio{
+    display: flex;
+    gap: 20px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+}
+.radio__active{
+    font-weight: 700;
+}
+input{
+    width: 17px;
+    height: 17px;
+}
+.favorites__books{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px 260px;
+    flex-wrap: wrap;
+}
+.book{
+    width: 550px;
+    height: 555px;
+    padding-top: 15px;
+    padding-left: 20px;
+    border:1px solid black;
+}
+.book p{
+    width: 61.54%;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.book button{
+    width: 75px;
+    height: 30px;
+}
+.img__book1{
+    max-width: 100%;
+    position: absolute;
+    right: 58%;
+    top: 69.2%;
+}
+.img__book2{
+    max-width: 100%;
+    position: absolute;
+    right: 1.4%;
+    top: 69.2%;
+}
+.img__book3{
+    max-width: 100%;
+    position: absolute;
+    right: 58%;
+    top: 89.7%;
+}
+.img__book4{
+    max-width: 100%;
+    position: absolute;
+    right: 1.4%;
+    top: 89.7%;
+}
+
